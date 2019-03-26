@@ -26,7 +26,7 @@ Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RS
 #include <Adafruit_MAX31865.h>// Use software SPI: CS, DI, DO, CLK
 Adafruit_MAX31865 max = Adafruit_MAX31865(2,3,4,5);
 
-// The value of the Rref resistor. Use 430.0 for PT100 and 4300.0 for PT1000
+// The value of the Rref resistor. Use 4300.0 for PT1000
 #define RREF      4300.0
 // The 'nominal' 0-degrees-C resistance of the sensor
 // 100.0 for PT100, 1000.0 for PT1000
